@@ -1,16 +1,16 @@
 public class Main {
     class Solution {
-        public double solution(int[] arr) {
+        public double solution(int[] numbers) {
             double answer = 0;
-            for (int i = 0; i < arr.length; i++) {
-                answer += arr[i];
+            for (int i = 0; i < numbers.length; i++) {
+                answer +=numbers[i];
             }
-            answer = answer/arr.length;
+            answer = answer / numbers.length;
             return answer;
         }
     }
 
     public static void main(String[] args) {
-        System.out.println("asd");
+
     }
 }
